@@ -193,7 +193,8 @@
         <repository>
             <id>webdev</id>
             <name>ejava webdev repository</name>
-            <url>http://webdev.apl.jhu.edu/~jcs/maven2</url>
+            <!-- <url>http://webdev.apl.jhu.edu/~jcs/maven2</url> -->
+            <url>http://webdev.jhuep.com/~jcs/maven2</url>
             <releases>
                 <enabled>true</enabled>
                 <updatePolicy>never</updatePolicy>
@@ -205,7 +206,8 @@
         <repository>
             <id>webdev-snapshot</id>
             <name>ejava webdev snapshot repository</name>
-            <url>http://webdev.apl.jhu.edu/~jcs/maven2-snapshot</url>
+            <!-- <url>http://webdev.apl.jhu.edu/~jcs/maven2-snapshot</url> -->
+            <url>http://webdev.jhuep.com/~jcs/maven2-snapshot/</url>
             <releases>
                 <enabled>false</enabled>
             </releases>
@@ -258,7 +260,8 @@
         <pluginRepository>
             <id>webdev</id>
             <name>ejava webdev repository</name>
-            <url>http://webdev.apl.jhu.edu/~jcs/maven2</url>
+            <!-- <url>http://webdev.apl.jhu.edu/~jcs/maven2</url> -->
+            <url>http://webdev.jhuep.com/~jcs/maven2</url>
             <releases>
                 <enabled>true</enabled>
                 <updatePolicy>never</updatePolicy>
@@ -818,6 +821,7 @@
         <profile>
             <id>webdev-deploy</id>
             <properties>
+                <!-- <site.server>webdev.apl.jhu.edu</site.server> -->
                 <site.server>webdev.apl.jhu.edu</site.server>
                 <devsite.server>dev5.ejava.info</devsite.server>
             </properties>
@@ -843,7 +847,8 @@
         <profile>
             <id>test-deploy</id>
             <properties>
-                <site.server>webdev.apl.jhu.edu</site.server>
+                <!-- <site.server>webdev.apl.jhu.edu</site.server> -->
+                <site.server>webdev.jhuep.com</site.server>
                 <devsite.server>dev5.ejava.info</devsite.server>
             </properties>
             <distributionManagement>
